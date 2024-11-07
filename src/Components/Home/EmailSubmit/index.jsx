@@ -1,6 +1,6 @@
 const EmailSubmit = () => {
   return (
-    <div className="px-3 md:px-0 py-5 md:py-14 bg-[#424829]">
+    <div className="px-3 md:px-0 py-5 md:py-14 bg-hero-email">
       <div className="md:max-w-6xl mx-auto flex flex-col md:flex-row gap-10 px-5 md:px-0 py-5 md:py-20">
         {/* left */}
         <div className="md:w-6/12">

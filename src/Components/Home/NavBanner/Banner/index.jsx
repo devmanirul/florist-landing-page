@@ -2,7 +2,7 @@ import { MdOutlineSlowMotionVideo } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div className="h-96 w-full flex flex-col justify-center items-center md:px-0 px-1 py-3 md:py-0">
+    <div className="w-full flex flex-col justify-center items-center md:mt-14 mt-0 md:px-0 px-1 py-3 md:py-0">
       <div className="flex flex-col gap-5 justify-center items-center">
         {/* heading */}
         <h1 className="font-bold text-xl md:text-5xl  text-white">

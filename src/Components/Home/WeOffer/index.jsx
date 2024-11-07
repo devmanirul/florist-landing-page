@@ -7,6 +7,7 @@ import cactus5 from "../../../assets/we-offer/cactus5.png";
 import cactus6 from "../../../assets/we-offer/cactus6.png";
 import cactus7 from "../../../assets/we-offer/cactus7.png";
 import cactus8 from "../../../assets/we-offer/cactus8.png";
+import { GoHeartFill } from "react-icons/go";
 
 const WeOffer = () => {
   return (
@@ -18,7 +19,7 @@ const WeOffer = () => {
       {/* cards */}
       <div className="grid md:grid-cols-4 gap-5 mt-10">
         {/* card1 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -27,7 +28,7 @@ const WeOffer = () => {
               className="w-full h-full object-cover bg-[#f1f1f1]"
             />
             <div className="absolute top-2 right-2 bg-white p-2 rounded-full ">
-              <IoMdHeart className="h-7 w-7 " />
+              <GoHeartFill className="h-7 w-7 hover:text-white " />
             </div>
           </div>
           {/* bottom */}

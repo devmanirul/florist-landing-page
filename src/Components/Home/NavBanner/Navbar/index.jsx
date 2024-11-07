@@ -34,8 +34,8 @@ const Navbar = () => {
             </ul>
           </div>
           {/* end */}
-          <div className="border border-white">
-            <a className="px-8 text-white">Call Us</a>
+          <div className="border border-white px-8 py-1 rounded-md">
+            <a className=" text-white">Call Us</a>
           </div>
         </div>
       </div>
