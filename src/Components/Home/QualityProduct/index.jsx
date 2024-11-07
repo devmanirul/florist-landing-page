@@ -11,9 +11,9 @@ const QualityProduct = () => {
         <img src={leftQuality} alt="" className="h-full w-full -mb-1" />
       </div>
       <div className="md:w-6/12 h-full">
-        <div className="flex flex-row items-center justify-center mt-0.5">
+        <div className="flex flex-row items-center justify-center mt-0.5 -mb-0.5">
           {/* cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 p-4 bg-[#cfcfcf]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 p-3 bg-[#cfcfcf]">
             {/* card1 */}
             <div className="p-14 bg-[#cfcfcf] rounded-lg shadow-md flex flex-col items-center md:items-start gap-5">
               <div className="">

@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </nav>
         {/* bottom */}
-        <nav className="px-3 md:px-0 py-5 md:py-14 grid md:grid-flow-col gap-5 md:gap-10 text-white">
+        <nav className="grid md:grid-flow-col gap-5 md:gap-10 text-white">
           <a className="link link-hover cursor-pointer">Home</a>
           <a className="link link-hover cursor-pointer">About us</a>
           <a className="link link-hover cursor-pointer">Plants</a>

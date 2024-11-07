@@ -7,27 +7,27 @@ import gallary5 from "../../../assets/gallary/gallary5.png";
 const Gallery = () => {
   return (
     <div className="px-3 md:px-0 py-5 md:py-14 max-w-6xl mx-auto">
-      <h1 className="font-bold text-3xl text-center mb-10">Our Gallary View</h1>
-      <div className="grid grid-cols-4 gap-4">
+      <h1 className="font-bold text-3xl text-center mb-10">Our Gallery View</h1>
+      <div className="grid md:grid-cols-12 md:grid-rows-12 gap-5 px-5 md:px-0">
         {/* 1 */}
-        <div className="row-span-6 col-span-3">
-          <img src={gallary1} alt="" />
+        <div className="col-span-12 md:col-span-4 md:row-span-12">
+          <img src={gallary1} alt="" className="w-full h-full" />
         </div>
         {/* 2 */}
-        <div className="row-span-3">
-          <img src={gallary2} alt="" />
+        <div className="col-span-12 row-span-12 md:row-span-6 md:col-span-4">
+          <img src={gallary2} alt="" className="w-full" />
         </div>
         {/* 3 */}
-        <div className="row-span-3 col">
-          <img src={gallary3} alt="" />
+        <div className="col-span-12 row-span-12 md:row-span-6 md:col-span-4">
+          <img src={gallary3} alt="" className="w-full" />
         </div>
         {/* 4 */}
-        <div className="row-span-3">
-          <img src={gallary4} alt="" />
+        <div className="col-span-12 row-span-12 md:row-span-6 md:col-span-4">
+          <img src={gallary4} alt="" className="w-full" />
         </div>
         {/* 5 */}
-        <div className="row-span-3">
-          <img src={gallary5} alt="" />
+        <div className="col-span-12 row-span-12 md:row-span-6 md:col-span-4">
+          <img src={gallary5} alt="" className="w-full" />
         </div>
       </div>
     </div>
