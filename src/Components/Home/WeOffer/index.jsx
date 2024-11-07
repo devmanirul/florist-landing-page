@@ -10,13 +10,13 @@ import cactus8 from "../../../assets/we-offer/cactus8.png";
 
 const WeOffer = () => {
   return (
-    <div className="max-w-6xl mx-auto py-14">
+    <div className="md:max-w-6xl mx-auto px-3 md:px-0 py-5 md:py-14">
       {/* heading */}
       <h1 className="font-bold text-3xl text-[#285A43] text-center">
         What We Offer To You
       </h1>
       {/* cards */}
-      <div className="grid grid-cols-4 gap-5 mt-10">
+      <div className="grid md:grid-cols-4 gap-5 mt-10">
         {/* card1 */}
         <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
           {/* img */}

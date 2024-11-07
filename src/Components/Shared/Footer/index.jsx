@@ -4,10 +4,10 @@ import { PiTwitterLogoThin } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col">
-      <footer className="footer footer-center bg-[#285A43] text-base-content rounded py-14">
+    <div className="flex flex-col ">
+      <footer className="footer footer-center bg-[#285A43] text-base-content md:rounded px-3 md:px-0 py-5 md:py-14">
         {/* top */}
-        <div className="text-3xl font-bold text-white">
+        <div className="text-2xl font-bold text-white">
           Feel free to Contact us
         </div>
         {/* mid */}
@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </nav>
         {/* bottom */}
-        <nav className="grid grid-flow-col  gap-10 text-white">
+        <nav className="px-3 md:px-0 py-5 md:py-14 grid md:grid-flow-col gap-5 md:gap-10 text-white">
           <a className="link link-hover cursor-pointer">Home</a>
           <a className="link link-hover cursor-pointer">About us</a>
           <a className="link link-hover cursor-pointer">Plants</a>

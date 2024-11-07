@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* mobile */}
-      <div className="md:hidden flex flex-row justify-between">
+      <div className="md:hidden flex flex-row justify-between items-center px-3 py-5">
         {/* hamburger menu */}
         <div className="">
           <RxHamburgerMenu className="h-14 w-14" />
@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
         {/* right */}
         <div className="border border-white">
-          <a className="px-5 py-2 text-white text-xl font-medium">Call Us</a>
+          <a className="px-5 text-white text-xl font-medium">Call Us</a>
         </div>
       </div>
     </div>

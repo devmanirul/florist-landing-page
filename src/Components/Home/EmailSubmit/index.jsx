@@ -1,16 +1,16 @@
 const EmailSubmit = () => {
   return (
-    <div className="py-14 bg-[#424829]">
-      <div className="max-w-6xl mx-auto flex flex-row gap-10 py-20">
+    <div className="px-3 md:px-0 py-5 md:py-14 bg-[#424829]">
+      <div className="md:max-w-6xl mx-auto flex flex-col md:flex-row gap-10 px-5 md:px-0 py-5 md:py-20">
         {/* left */}
-        <div className="w-6/12">
+        <div className="md:w-6/12">
           <h1 className="font-bold text-3xl text-white">
             Enter your email address for our mailing Promo or other interesting
             things
           </h1>
         </div>
         {/* right */}
-        <div className="w-6/12 flex flex-row justify-center items-center gap-5">
+        <div className="md:w-6/12 flex flex-row justify-center items-center gap-5">
           <div className="w-8/12">
             <input
               placeholder="Enter your email"

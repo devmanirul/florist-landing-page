@@ -6,11 +6,11 @@ import quality4 from "../../../assets/qualiytProduct/qualityProduct4.png";
 
 const QualityProduct = () => {
   return (
-    <div className="max-w-fit mx-auto py-14 flex flex-row">
-      <div className="w-6/12 mb-">
+    <div className="md:max-w-fit mx-auto px-3 md:px-0 py-5 md:py-14 flex flex-row">
+      <div className="md:w-6/12 mb-5 md:block hidden">
         <img src={leftQuality} alt="" className="h-full w-full -mb-1" />
       </div>
-      <div className="w-6/12 h-full">
+      <div className="md:w-6/12 h-full">
         <div className="flex flex-row items-center justify-center mt-0.5">
           {/* cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 p-4 bg-[#cfcfcf]">

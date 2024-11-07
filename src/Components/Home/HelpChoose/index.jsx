@@ -4,13 +4,13 @@ import rightchoose from "../../../assets/help-choose/right-choose.png";
 
 const HelpChoose = () => {
   return (
-    <div className="max-w-6xl mx-auto flex flex-col gap-16 py-20">
+    <div className="max-w-6xl mx-auto flex flex-col gap-16 px-3 md:px-0 py-5 md:py-14">
       {/* top */}
-      <div className="w-full flex flex-row gap-16">
-        <h1 className="w-4/12 font-bold text-3xl text-[#285A43]">
+      <div className="w-full flex flex-col md:flex-row gap-5 md:gap-16">
+        <h1 className="md:w-4/12 font-bold text-3xl text-[#285A43]">
           We Help choose the most suitable plants for you
         </h1>
-        <p className="w-8/12 text-justify">
+        <p className="md:w-8/12 text-justify">
           Our selection includes a wide variety of flowers, from classic roses
           to exotic orchids, as well as a variety of lush indoor and outdoor
           plants and also offer unique floral arrangements that are perfect for
@@ -19,9 +19,9 @@ const HelpChoose = () => {
         </p>
       </div>
       {/* bottom */}
-      <div className="w-full flex flex-row gap-16">
+      <div className="w-full flex flex-col md:flex-row gap-16">
         {/* left */}
-        <div className="w-4/12 flex flex-col gap-3 p-10">
+        <div className="md:w-4/12 flex flex-col gap-3 p-10">
           <div className="">
             <img src={leftchoose} alt="" className="w-20 h-full" />
           </div>{" "}
@@ -32,7 +32,7 @@ const HelpChoose = () => {
           </p>
         </div>
         {/* middle */}
-        <div className="w-4/12 flex flex-col gap-3 bg-[#337A5B] p-10 rounded-md">
+        <div className="md:w-4/12 flex flex-col gap-3 bg-[#337A5B] p-10 rounded-md">
           <div className="">
             <img src={midchoose} alt="" className="w-20 h-full" />
           </div>
@@ -44,7 +44,7 @@ const HelpChoose = () => {
           </p>
         </div>
         {/* right */}
-        <div className="w-4/12 flex flex-col gap-3 p-10">
+        <div className="md:w-4/12 flex flex-col gap-3 p-10">
           <div className="">
             <img src={rightchoose} alt="" className="w-20 h-full" />
           </div>

@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const InterestingCard = ({ img, title, description }) => {
   return (
-    <div className="w-4/12 h-[540px] flex flex-col justify-center gap-5">
+    <div className="md:w-4/12 h-[540px] flex flex-col justify-center gap-5">
       {/* img */}
       <div className="w-full">
         <img src={img} alt="" className="w-full h-full" />
