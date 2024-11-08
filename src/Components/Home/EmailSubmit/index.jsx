@@ -1,6 +1,6 @@
 const EmailSubmit = () => {
   return (
-    <div className="px-3 md:px-0 py-5 md:py-14 bg-hero-email">
+    <div className="px-3 md:px-0 py-5 md:py-16 bg-cover bg-hero-email">
       <div className="md:max-w-6xl mx-auto flex flex-col md:flex-row gap-10 px-5 md:px-0 py-5 md:py-20">
         {/* left */}
         <div className="md:w-6/12">
@@ -15,7 +15,7 @@ const EmailSubmit = () => {
             <input
               placeholder="Enter your email"
               type="text"
-              className="opacity-30 rounded-md text-black outline-none px-5 py-2 w-full"
+              className="rounded-md bg-[#D9D9D9]/10 text-white outline-none px-5 py-2 w-full"
             />
           </div>
           <div className="w-4/12">

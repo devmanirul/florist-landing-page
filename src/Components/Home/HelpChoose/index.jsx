@@ -4,13 +4,13 @@ import rightchoose from "../../../assets/help-choose/right-choose.png";
 
 const HelpChoose = () => {
   return (
-    <div className="max-w-6xl mx-auto flex flex-col gap-16 px-3 md:px-0 py-5 md:py-14">
+    <div className="max-w-6xl mx-auto flex flex-col gap-16 px-3 md:px-16 py-5 md:py-20">
       {/* top */}
       <div className="w-full flex flex-col md:flex-row gap-5 md:gap-16">
-        <h1 className="md:w-4/12 font-bold text-3xl text-[#285A43]">
+        <h1 className="md:w-5/12 font-bold text-3xl text-[#285A43]">
           We Help choose the most suitable plants for you
         </h1>
-        <p className="md:w-8/12 text-justify">
+        <p className="md:w-7/12 text-justify">
           Our selection includes a wide variety of flowers, from classic roses
           to exotic orchids, as well as a variety of lush indoor and outdoor
           plants and also offer unique floral arrangements that are perfect for

@@ -9,7 +9,7 @@ const Banner = () => {
           Nature's Beauty Delivered to You
         </h1>
         {/* description */}
-        <p className="text-white md:w-1/2 text-lg text-center">
+        <p className="text-white md:w-7/12 text-lg text-center">
           Nature's beauty is just a click away with our online flower and plant
           shop. We offer a wide variety of flowers that will bring a touch of
           nature to your home!

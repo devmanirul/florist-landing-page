@@ -5,10 +5,9 @@ const Navbar = () => {
   return (
     <div className="">
       {/* desktop & tab */}
-      <div className="md:flex flex-row justify-between items-center px-14 py-3 hidden">
+      <div className="md:flex flex-row justify-between items-center px-16 py-4 hidden">
         {/* left img */}
         <div className="">
-          {/* Left img */}
           <img
             src={navbarLeft}
             alt=""
@@ -19,22 +18,22 @@ const Navbar = () => {
           {/* middle */}
           <div className=" hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-white">
-              <li>
+              <li className="hover:underline">
                 <a>Home</a>
               </li>
-              <li>
+              <li className="hover:underline">
                 <a>About Us</a>
               </li>
-              <li>
+              <li className="hover:underline">
                 <a>Planters</a>
               </li>
-              <li>
+              <li className="hover:underline">
                 <a>Contact</a>
               </li>
             </ul>
           </div>
           {/* end */}
-          <div className="border border-white px-8 py-1 rounded-md">
+          <div className="border border-white px-8 py-1 rounded-md hover:bg-[#96A9A8]">
             <a className=" text-white">Call Us</a>
           </div>
         </div>

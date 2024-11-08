@@ -11,7 +11,7 @@ import { GoHeartFill } from "react-icons/go";
 
 const WeOffer = () => {
   return (
-    <div className="md:max-w-6xl mx-auto px-3 md:px-0 py-5 md:py-14">
+    <div className="md:max-w-6xl mx-auto px-3 md:px-16 py-5 md:py-14">
       {/* heading */}
       <h1 className="font-bold text-3xl text-[#285A43] text-center">
         What We Offer To You
@@ -50,7 +50,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 2 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -81,7 +81,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 3 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -112,7 +112,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 4 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -143,7 +143,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 5 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -174,7 +174,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 6 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -205,7 +205,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 7 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img
@@ -236,7 +236,7 @@ const WeOffer = () => {
           </div>
         </div>
         {/* card 8 */}
-        <div className="flex flex-col justify-center gap-5 border rounded-md p-3">
+        <div className="flex flex-col justify-center gap-5 shadow-md rounded-md p-3">
           {/* img */}
           <div className="w-full relative flex flex-row items-center justify-center rounded-md">
             <img

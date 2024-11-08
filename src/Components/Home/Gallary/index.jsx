@@ -6,7 +6,7 @@ import gallary5 from "../../../assets/gallary/gallary5.png";
 
 const Gallery = () => {
   return (
-    <div className="px-3 md:px-0 py-5 md:py-14 max-w-6xl mx-auto">
+    <div className="px-3 md:px-0 py-5 md:py-14 w-[1349px] mx-auto">
       <h1 className="font-bold text-3xl text-center mb-10">Our Gallery View</h1>
       <div className="grid md:grid-cols-12 md:grid-rows-12 gap-5 px-5 md:px-0">
         {/* 1 */}
