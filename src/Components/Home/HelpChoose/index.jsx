@@ -4,7 +4,7 @@ import rightchoose from "../../../assets/help-choose/right-choose.png";
 
 const HelpChoose = () => {
   return (
-    <div className="max-w-6xl mx-auto flex flex-col gap-16 px-3 md:px-16 py-5 md:py-20">
+    <div className="max-w-7xl mx-auto flex flex-col gap-16 px-3 md:px-16 py-5 md:py-20">
       {/* top */}
       <div className="w-full flex flex-col md:flex-row gap-5 md:gap-16">
         <h1 className="md:w-5/12 font-bold text-3xl text-[#285A43]">

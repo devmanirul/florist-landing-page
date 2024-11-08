@@ -11,7 +11,7 @@ import { GoHeartFill } from "react-icons/go";
 
 const WeOffer = () => {
   return (
-    <div className="md:max-w-6xl mx-auto px-3 md:px-16 py-5 md:py-14">
+    <div className="md:max-w-7xl mx-auto px-3 md:px-16 py-5 md:py-14">
       {/* heading */}
       <h1 className="font-bold text-3xl text-[#285A43] text-center">
         What We Offer To You

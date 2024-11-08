@@ -3,7 +3,7 @@ import navbarLeft from "../../../../assets/navbar-bannar/navbarLeft.png";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="max-w-7xl mx-auto">
       {/* desktop & tab */}
       <div className="md:flex flex-row justify-between items-center px-16 py-4 hidden">
         {/* left img */}

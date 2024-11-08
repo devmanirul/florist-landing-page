@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const NavBanner = () => {
   return (
-    <div className="max-w-6xl h-[560px] mx-auto bg-hero-pattern bg-cover">
+    <div className="w-[1349px] h-[580px] mx-auto bg-hero-pattern bg-cover">
       <Navbar />
       <Banner />
     </div>
