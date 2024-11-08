@@ -6,7 +6,7 @@ import quality4 from "../../../assets/qualiytProduct/qualityProduct4.png";
 
 const QualityProduct = () => {
   return (
-    <div className="w-[1349px] mx-auto">
+    <div className="md:w-[1349px] mx-auto">
       <div className="max-w-fit mx-auto px-3 md:px-0 py-5 md:py-14 flex flex-row">
         <div className="md:w-6/12 mb-5 md:block hidden">
           <img src={leftQuality} alt="" className="h-full w-full -mb-1" />

@@ -7,7 +7,7 @@ import footerRight from "../../../assets/footer/footer2.png";
 const Footer = () => {
   return (
     <div className="flex flex-col ">
-      <footer className="footer footer-center bg-[#285A43] text-base-content md:rounded px-3 md:px-0 py-5 md:py-14 relative z-20">
+      <footer className="footer footer-center bg-[#285A43] md:rounded px-3 md:px-0 py-10 md:py-14 relative z-20">
         {/* top */}
         <div className="text-2xl font-bold text-white">
           Feel free to Contact us

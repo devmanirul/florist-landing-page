@@ -6,9 +6,11 @@ import gallary5 from "../../../assets/gallary/gallary5.png";
 
 const Gallery = () => {
   return (
-    <div className="px-3 md:px-0 py-5 md:py-14 w-[1349px] mx-auto">
-      <h1 className="font-bold text-3xl text-center mb-10">Our Gallery View</h1>
-      <div className="grid md:grid-cols-12 md:grid-rows-12 gap-5 px-5 md:px-0">
+    <div className="px-3 md:px-0 py-7 md:py-14 md:w-[1349px] mx-auto">
+      <h1 className="font-bold text-2xl md:text-3xl text-center mb-3 md:mb-10">
+        Our Gallery View
+      </h1>
+      <div className="grid md:grid-cols-12 md:grid-rows-12 gap-5 md:px-0">
         {/* 1 */}
         <div className="col-span-12 md:col-span-4 md:row-span-12">
           <img src={gallary1} alt="" className="w-full h-full" />
